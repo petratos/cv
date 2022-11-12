@@ -152,78 +152,7 @@
   
         <hr class="m-0">
       
-           <-- end timeline jobs ---->
- 
-      
-            <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="jobs">
-          <div class="my-auto">
-            <h2 class="mb-5">Προϋπηρεσία</h2>
-  
-            
-            
-<ol class="timeline">
-  <li class="event rit">
-    <p class="title">IT Administrator</p>
-    <p class="dates">Δεκέμβριος 2018 - Σήμερα</p>
-    <p class="company">Practica ΚΔΒΜ</p>
-      <p class="description">
-      An organization that I am an active participant of, this is the largest website project that I have created to date. The website can be viewed at that I have created to date. The website can be viewed at <a href="https://csh.rit.edu">csh.rit.edu</a>.
-    </p>
-    <p class="details">
-      In my time out of class, I'm an active member of <a href='https://csh.rit.edu'>Computer Science House </a> (CSH). My first year I was elected Freshman Project President and my second year I was elected as Social Director. My second year I also became webmaster for CSH, creating and maintaing the current website with a friend.
-    </p>
-    <span class="button more">View Details</span>
-  
-  </li>
-  <li class="event csh">
-    <p class="title">IT Administrator</p>
-    <p class="dates">Δεκέμβριος 2018 - Σήμερα</p>
-    <p class="company">Practica ΚΔΒΜ</p>
-      <p class="description">
-      An organization that I am an active participant of, this is the largest website project that I have created to date. The website can be viewed at that I have created to date. The website can be viewed at <a href="https://csh.rit.edu">csh.rit.edu</a>.
-    </p>
-    <p class="details">
-      In my time out of class, I'm an active member of <a href='https://csh.rit.edu'>Computer Science House </a> (CSH). My first year I was elected Freshman Project President and my second year I was elected as Social Director. My second year I also became webmaster for CSH, creating and maintaing the current website with a friend.
-    </p>
-    <span class="button more">View Details</span>
-  </li>
-  <li class="event pdp">
-    <p class="title">IT Administrator</p>
-    <p class="dates">Δεκέμβριος 2018 - Σήμερα</p>
-    <p class="company">Practica ΚΔΒΜ</p>
-      <p class="description">
-      An organization that I am an active participant of, this is the largest website project that I have created to date. The website can be viewed at that I have created to date. The website can be viewed at <a href="https://csh.rit.edu">csh.rit.edu</a>.
-    </p>
-    <p class="details">
-      In my time out of class, I'm an active member of <a href='https://csh.rit.edu'>Computer Science House </a> (CSH). My first year I was elected Freshman Project President and my second year I was elected as Social Director. My second year I also became webmaster for CSH, creating and maintaing the current website with a friend.
-    </p>
-    <span class="button more">View Details</span>
-  </li>
- <!-- <li class='event prog'>
-    <p class='title'>App Dev & Web Experience Intern</p>
-    <p class='dates'>Summer 2013</p>
-    <p class='company'>Progressive Insurance</p>
-    <p class='description'>
-      Starting as an software development intern, the project I was assigned to elevated early so I switched to the web experience team working on <a href='http://progressive.com'>Progressive's website</a>.
-    </p>
-    <p class='details'>
-      The project I was assigned to in the beginning was ensuring tablet compatibility for some aging insurance agent web apps. All that was remaining to do when I joined the team was a handful of cross-browser JavaScript (JS) problems. After elevating the project, I spent some time in flux which I filled with creating a art gallery web-app. Through the process of creating it, I made sure to learn as much as I could, focusing on test-driven, C#.NET code and behavior driven, JS code. Following that, I switched to the web experience team where I spent my time fixing responsive issues across <a href='http://progressive.com'>Progressive's website</a>, researching and prototyping different responsive image solutions and starting a re-architecture of <a href='http://progressiveprogressivecommercial.com'>Progressive Commercial</a> from the old web forms architecture to the new Model-View-Controller (MVC) architecture.
-    </p>
-    <span class="button more">View Details</span>
-  </li>-->
-</ol>
-            
-            
-  
-          </div>
-        </section>
-  
-        <hr class="m-0">
-      
-      
-      <-- end timeline jobs ---->
-      
-      
+          
       
       
       
@@ -455,49 +384,7 @@
     <script src="js/resume.min.js"></script>
         
         
-<script>
-var viewMoreButtons = document.querySelectorAll('.more');
 
-var toggleVisibile = function(el) {
-  if (el.style.fontSize === '0px' || el.style.fontSize === '')
-    el.style.fontSize = '1rem';
-  else
-    el.style.fontSize = '0px';
-};
-
-var toggleText = function(el) {
-  if (el.innerHTML === 'View Details')
-    el.innerHTML = 'View Less';
-  else 
-    el.innerHTML = 'View Details';
-};
-
-var viewMoreButtonClickHandler = function(currBtn) {
-  var details = currBtn.previousSibling;
-  while(details.nodeType !== 1) details = details.previousSibling;
-  toggleVisibile(details);
-  toggleText(currBtn);
-};
-
-var moveDown = function(btnToMove) {
-  
-};
-
-var addEventListenerPlus = function(i) {
-  viewMoreButtons.item(i).addEventListener('click', 
-    function(e) {
-      var nextI;
-      viewMoreButtonClickHandler(this);
-      if (i%2 !== 0 && (i + 2) < viewMoreButtons.length) {
-        moveDown(viewMoreButtons.item(i+2));
-      }
-    }, false);
-};
-
-for(var i=0; i < viewMoreButtons.length; i++) {
-  addEventListenerPlus(i);
-}
-</script>
         
         
         
